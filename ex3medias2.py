@@ -3,7 +3,7 @@
 def media(a):
 	contador = 0
 	media = 0
-	while a > 0:
+	while a >= 0:
 		contador = contador + 1
 		media = media + a
 		print a
