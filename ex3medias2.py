@@ -19,3 +19,6 @@ print "digite uma nota"
 a = int(raw_input())
 
 print media(a)
+
+# Nota: 1.0
+# Comentario: Tome cuidado com o excesso de outputs.
