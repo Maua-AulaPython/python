@@ -12,3 +12,6 @@ print "digite um numero"
 a = int(raw_input())
 
 print media(a)
+
+# Nota: 1.0
+# Comentario: Muito bom. So tome cuidado com o excesso de outputs

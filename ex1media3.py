@@ -18,3 +18,6 @@ print "digite a nota 3"
 c = int(raw_input())  
 
 print media(a, b, c)
+
+# Nota: 1.0
+# Comentario: Excelente organizacao
