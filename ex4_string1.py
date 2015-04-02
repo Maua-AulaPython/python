@@ -1,7 +1,8 @@
 #exercicio4: faca um programa que leia uma string e mostre ela ao contrario
 
 def lerstring(a):
-	print a [::-1]
+	x = a [::-1]
+	return x
 
 print "digite um texto"
 a = raw_input()

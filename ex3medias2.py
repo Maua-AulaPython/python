@@ -6,19 +6,16 @@ def media(a):
 	while a >= 0:
 		contador = contador + 1
 		media = media + a
-		print a
-		print media
 		print "digite uma nota"
 		a = int(raw_input())
 	else:
 		mediafinal = media/contador
-		print "a media final eh"
-		print mediafinal
+		return mediafinal
 
 print "digite uma nota"
 a = int(raw_input())
 
-print media(a)
+print "a media final eh: %d" %media(a)
 
 # Nota: 1.0
 # Comentario: Tome cuidado com o excesso de outputs.
