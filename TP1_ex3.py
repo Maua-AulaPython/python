@@ -8,7 +8,7 @@ def coordenadapolares(x, y):
 	print "distancia %f" %r
 	print "angulo %f" %angulo
 	return (r,angulo)
-	
+
 Ponto = []
 for i in xrange (0,2):
 	print "digite Ponto%d" %(i+1)
@@ -17,3 +17,6 @@ for i in xrange (0,2):
 	print Ponto
 	print "coordenadas polares"
 	print coord
+
+# Nota: 1.0
+# Perfect!

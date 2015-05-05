@@ -13,11 +13,11 @@ def coordenadas(x, y, z):
 	print longitude
 
 	for i in range(0,5):
-		latitude = math.atan(z / (P * (1 - E * N / (N + h)))) 
+		latitude = math.atan(z / (P * (1 - E * N / (N + h))))
 		N = a/(math.sqrt(1 - E * math.sin(latitude) ** 2))
 		h = P / math.cos(latitude) - N
 		return math.degrees(latitude), math.degrees(longitude), h
- 
+
 print "digite coordenada cartesiana x"
 x = float(raw_input())
 
@@ -28,3 +28,6 @@ print "digite coordenada cartesiana z"
 z = float(raw_input())
 
 print coordenadas(x, y, z)
+
+# Nota: 1.0
+# Comentario: *

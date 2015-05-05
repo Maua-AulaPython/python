@@ -20,3 +20,6 @@ print "digite hipotenuza C"
 C = int(raw_input())
 
 print triangulo(A, B, C)
+
+# Nota: 1.0
+# Nice job

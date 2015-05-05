@@ -19,3 +19,6 @@ print "digite P2y2"
 P2y2 = int(raw_input())
 
 print distancia(P1x1, P1y1, P2x2, P2y2)
+
+# Nota: 1.0
+# :)

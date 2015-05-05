@@ -29,3 +29,6 @@ for i in xrange(0, len(Lista)-1):
 			dmaior = d
 
 print "a maior distancia eh de: %f" %dmaior
+
+# Nota: 1.0
+# Comentario: variaveis com letra inicial capitalizadas remetem ao Java e .NET :(
