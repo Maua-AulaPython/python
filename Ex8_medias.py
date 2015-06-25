@@ -35,3 +35,10 @@ except:
 med, mai = media(nota)
 print "a media final eh: %d" % med
 print "a maior nota eh: %d" % mai 
+
+
+#Nota: 0.8
+#Comentario: Bom uso de retorno de tupla na funcao. Boa organizacao do codigo.
+#            -0.1 porque Media eh um float e nao um inteiro. -0.1 porque o
+#            codigo tem um bug meio serio (o que acontece se eu digitar um
+#            caractere invalido no segundo loop?)
